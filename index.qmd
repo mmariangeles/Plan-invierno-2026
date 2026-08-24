@@ -1,9 +1,12 @@
 ---
 title: "Plan invierno 2026"
 subtitle: "- Dirección de Maternidad e Infancia"
+
 format:
   dashboard:
     theme: flatly
+
+embed-resources: true
 ---
 
 ```{r,echo=FALSE}
