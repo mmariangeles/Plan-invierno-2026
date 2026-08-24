@@ -1,0 +1,141 @@
+/* Importa la fuente Manrope desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+
+/* Aplica la fuente Manrope a todo el documento */
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #2C3E4C; /* Color de texto principal */
+    background-color: white; /* Color de fondo principal */
+}
+
+/* Estilos de encabezados */
+h1, h2, h3, h4, h5, h6 {
+    color: #2C3E4C; /* Color de encabezados */
+    font-weight: 700;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #79A762;
+    text-decoration: none;
+}
+a:hover {
+    color: #2C3E4C;
+    text-decoration: underline;
+}
+
+/* Modificación de tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #white; /* Fondo de tabla */
+}
+th {
+    background-color: #2C3E4C; /* Encabezado de tabla */
+    color: #F4DFB9;
+    padding: 10px;
+}
+td {
+    padding: 8px;
+    border: 1px solid #2C3E4C;
+}
+
+/* Botones personalizados */
+button, .btn {
+    background-color: #79A762;
+    color: #F4DFB9;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover, .btn:hover {
+    background-color: #2C3E4C;
+    color: #F4DFB9;
+}
+
+/* Bloques de código */
+pre, code {
+    background-color: #2C3E4C;
+    color: #79A762;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Estilos de cuadros (blockquotes) */
+blockquote {
+    border-left: 4px solid #79A762;
+    background-color: #F4DFB9;
+    color: #2C3E4C;
+    padding: 10px 20px;
+    font-style: italic;
+}
+
+/*alineacion justificada*/
+p {
+    text-align: justify;
+}
+
+/* ===============================
+   SOLAPAS (panel-tabset)
+   =============================== */
+
+/* Solapas principales */
+.panel-tabset > .nav-tabs > .nav-item > .nav-link {
+    background-color: #F4DFB9;   /* beige claro */
+    color: #2C3E4C;
+    font-weight: 600;
+    border-radius: 6px 6px 0 0;
+    margin-right: 6px;
+    border: 1px solid #2C3E4C;
+}
+
+/* Solapa principal activa */
+.panel-tabset > .nav-tabs > .nav-item > .nav-link.active {
+    background-color: #2C3E4C;   /* azul oscuro */
+    color: #F4DFB9;
+    font-weight: 700;
+}
+
+/* ===============================
+   SUB-SOLAPAS
+   =============================== */
+
+/* Sub-solapas */
+.panel-tabset .panel-tabset > .nav-tabs > .nav-item > .nav-link {
+    background-color: #E6EFE2;   /* verde muy suave */
+    color: #2C3E4C;
+    font-weight: 500;
+    font-size: 0.95em;
+    border-radius: 6px 6px 0 0;
+    margin-right: 4px;
+}
+
+/* Sub-solapa activa */
+.panel-tabset .panel-tabset > .nav-tabs > .nav-item > .nav-link.active {
+    background-color: #79A762;   /* verde institucional */
+    color: #F4DFB9;
+    font-weight: 700;
+}
+.header-institucional {
+  width: 100%;
+  background-color: white; /* o el color institucional */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-institucional img {
+  max-width: 100%;
+  height: auto;
+  max-height: 120px; /* podés ajustar esto */
+}
+
+
+.footer-institucional {
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 2px solid #ccc; /* o tu color institucional */
+}
+

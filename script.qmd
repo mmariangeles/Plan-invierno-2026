@@ -1,0 +1,50 @@
+---
+title: "Plan invierno 2026"
+subtitle: "- Dirección de Maternidad e Infancia"
+format:
+  dashboard:
+    theme: flatly
+---
+
+```{r,echo=FALSE}
+source("1.R")
+```
+
+El Plan Invierno 2026 se implementa entre los meses de **mayo y septiembre** con el objetivo de fortalecer la respuesta del sistema de salud frente al incremento estacional de las infecciones respiratorias, **priorizando la atención de las infancias**. La estrategia contempla la implementación de **consultorios especiale**s (programados o a demanda) destinados a la atención de infecciones respiratorias y **postas de bronquiolitis con disponibilidad de oxígeno en centros de salud** para el abordaje de episodios críticos asociados a cuadros respiratorios.
+
+# Descripción escenario epidemiológico
+
+Esta es la página epidemiológica.
+
+::: panel-tabset
+## Internación
+
+Acá va el contenido de internación.
+
+## Ambulatorio
+
+Acá va el contenido ambulatorio.
+:::
+
+# ¿Cómo se comportó la demanda asociada a las infecciones respiratorias durante el plan invierno y qué impacto tuvo sobre la atención de niñas y niños, particularmente en los grupos de mayor vulnerabilidad y en los distintos niveles de la red de servicios?\*\*
+
+Esta es la página territorial.
+
+# Fortalecimiento de la red de atención
+
+::: panel-tabset
+## Incorporación de trabajadores eventuales de enfermería
+
+gd
+
+## Capacitaciones
+
+Se realizaron capacitaciones dirigidas al personal de enfermería del Plan Invierno y/o que se desempeñen en servicios de pediatría que usen CAFO. Las jornadas fueron teórica-práctica con estaciones de entrenamiento en competencia clínica. Participaron 88 trabajadores.
+
+```{r}
+grafico_capacitaciones
+
+```
+:::
+
+# Inmunizaciones
